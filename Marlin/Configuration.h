@@ -643,9 +643,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  22.20
-    #define DEFAULT_Ki   1.08
-    #define DEFAULT_Kd 114.00
+    #define DEFAULT_Kp  16.49
+    #define DEFAULT_Ki   0.96
+    #define DEFAULT_Kd  70.89
   #endif
 #endif
 
@@ -1451,7 +1451,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -45, 23, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -54.5, 26.5, 0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
